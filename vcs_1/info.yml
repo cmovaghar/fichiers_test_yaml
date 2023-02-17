@@ -1,0 +1,26 @@
+type: vcs
+
+niveau: base
+
+titre: Exemple d'exercice de vcs
+uuid: 63763b79-b679-40f0-926d-d315b701ca8f
+
+objectif: Rester en vie
+
+énoncé: |
+ Voici un exemple d'exercice de type "vcs"
+ 
+ébauches:
+    kotlin: !include exec.kt
+
+
+rétroactions:
+    positive: Une réponse positive !
+    négative: Une réponse positive !
+    erreur: Une erreur !
+tests:
+    - !include tests.yml
+
+auteur: CM
+licence: 2021 CC-BY-SA
+
